@@ -1,0 +1,5 @@
+a,b,c,d = map(int,input().split())
+x = min(a,c,d)
+a = a-min(a,c,d)
+y = min(a,b)
+print(x*256+y*32)
